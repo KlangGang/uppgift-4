@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100vh;
+}
+
+.wrapper,
+.rubrik {
+    background-color: honeydew;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.rubrik {
+    font-size: xx-large;
+}
+
+.wrapper,
+.bilder {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.spin {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 50px;
+    transition: 10s;
+}
+
+.spin:hover {
+    background-color: yellow;
+    rotate: 36000deg;
+}
+
+.big {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    margin: 50px;
+    transition: 1s;
+}
+
+.big:hover {
+    height: 150px;
+    width: 300px;
+    background-color: yellow;
+    translate: 20% 20%;
+}
+
+.evo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
