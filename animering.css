@@ -1,11 +1,6 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    height: 100vh;
 }
 
 .wrapper,
@@ -40,6 +35,9 @@
     rotate: 36000deg;
 }
 
+/* the couler of the divider will change to yellow and it will spin 36000 degrees in 10 seconds when hovering.*/
+
+
 .big {
     height: 100px;
     width: 100px;
@@ -55,8 +53,15 @@
     translate: 20% 20%;
 }
 
+/* The hight will incres with 50 pixels while the width will increse with 200 pixels stretching it out. 
+it will bocome yellow
+translate makes it move positions
+this will happen in 1 second.*/
+
 .evo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* nothing much to see here. I just centerd the vidio*/
